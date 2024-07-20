@@ -1,0 +1,10 @@
+{
+    "folder-path-color.folders": [
+    { "path": ".vscode", "color": "blue"},
+    { "path": "css", "color": "magenta"},
+    { "path": "image_files", "color": "red"},
+    { "path": "js", "color": "cyan"},
+    { "path": "node_modules", "color": "green"},
+    { "path": "scss", "color": "yellow" }
+]
+}
