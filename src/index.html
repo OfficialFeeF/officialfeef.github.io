@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+  <head>
+    <!--Meta-Infos-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Dependencies-->
+    <link href="/css/main.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/color-mode.js"></script>
+    <!--Title & Icon-->
+    <title>Fahrradwerkstatt | Startseite</title>
+    <link rel="icon" type="image/x-icon" href="image_files/logo.png">
+    
+  </head>
+
+  <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <div class="container-fluid">
+              <img src="image_files/logo.png" alt="logo" width="46" height="40">
+              <a class="navbar-brand" href="index.html"> Fahrradwerkstatt am HHG</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Startseite</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.html">Angebote</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="leagl_infos.html">Allg. Geschätsbedingungen</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+
+                </span>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <main>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="image_files/banner_1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image_files/banner_2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image_files/banner_3.png" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <!-- Statusmeldung-->
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="node_modules/bootstrap-icons/icons/exclamation-circle.svg" class="rounded me-2" alt="logo" width="22" height="20">
+              <strong class="me-auto">Statusmeldung</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Unsere Fahrradwerkstatt ist Moment geschlossen. Kommen Sie im neuen Jahr wieder.
+            </div>
+          </div>
+        </div>
+
+    <!--Text-->
+    
+
+    </main>
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Company, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="image_files/logo.png" alt="logo" width="55" height="50">
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+      </footer>
+
+            
+  </body>
+
+</html>
