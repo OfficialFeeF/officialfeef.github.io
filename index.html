@@ -2,7 +2,7 @@
 <html lang="en" data-bs-theme="auto">
   <head>
     
-    <script src="js/color-modes.js"></script>
+    <script src="/js/color-modes.js" defer></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +42,7 @@
     <header data-bs-theme="dark">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-          <img src="images/logo.png" width="40" height="40" alt="logo">
+          <img src="images/logo.png" width="40" height="40" alt="logo"  loading="lazy">
           <a class="navbar-brand" href="index.html"> Fahrradwerkstatt am HHG</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -100,7 +100,7 @@
       <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
-            <img src="images/exclamation-circle.svg" class="rounded me-2" alt="exclamation-circle" width="22" height="20">
+            <img src="images/exclamation-circle.svg" class="rounded me-2" alt="exclamation-circle" width="22" height="20" loading="lazy">
             <strong class="me-auto">Statusmeldung</strong>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>  <!--//FIXME: Close Button funktioniert nicht-->
           </div>
@@ -121,7 +121,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/banner_1.png" class="img-fluid" alt="banner_1" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img src="images/banner_1.png" class="img-fluid" alt="banner_1" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy" fetchpriority="high">
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1>Gib dein Fahrrad bei uns ab!</h1>
@@ -131,7 +131,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/banner_1.png" class="img-fluid" alt="banner_1" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img src="images/banner_1.png" class="img-fluid" alt="banner_1" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Wer sind wir?</h1>
@@ -141,7 +141,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/banner_1.png" class="img-fluid" alt="banner_1" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img src="images/banner_1.png" class="img-fluid" alt="banner_1" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>Unsere Öffnungszeiten</h1>
@@ -172,7 +172,7 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img src="images/bike-check.png" class="img-fluid rounded-circle" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img src="images/bike-check.png" alt="bike-check" class="img-fluid rounded-circle" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
             <title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
             <h2 class="fw-normal">Bike-Check</h2>
             <p>Fahrtauglich oder nicht?! Falls du dir nicht sicher bist, kannst du dein Fahrrad für eine ausführliche Inspektion in unserer Werkstatt vorbeibringen.</p>
@@ -183,7 +183,7 @@
             </p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img src="images/bike-rep.png" class="img-fluid rounded-circle" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img src="images/bike-rep.png" alt="bike-rep" class="img-fluid rounded-circle" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
             <title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
             <h2 class="fw-normal">Bike-Reperatur</h2>
             <p>Falls eines deiner Fahrrad-Bauteile kaputt gegangen ist, sind wir für dich da und bringen dein Fahrrad wieder auf Vordermann.</p>
@@ -192,7 +192,7 @@
             </button>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img src="images/bike-pflege.png" class="img-fluid rounded-circle" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img src="images/bike-pflege.png" alt="bike-pflege" class="img-fluid rounded-circle" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
             <title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
             <h2 class="fw-normal">Bike-Pflege</h2>
             <p>Ist dein Fahrrad vom ständigen Fahren völlig schmutzig und dir fehlt die Zeit fürs Reinigen, dann bring es vorbei</p>
@@ -205,11 +205,11 @@
         <!--//TODO: BIlder hinzufügen-->
         <!--//TODO: Text der Angeboten neu schreiben-->
         <!--Modals-->
-        <div class="modal fade" id="modalBikeCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalBikeCheck" tabindex="-1" aria-labelledby="bikeCheckModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Bike-Check</h1>
+                <h1 class="modal-title fs-5" id="bikeCheckModalLabel">Bike-Check</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -222,11 +222,11 @@
           </div>
         </div>
 
-        <div class="modal fade" id="modalBikeRep" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalBikeRep" tabindex="-1" aria-labelledby="bikeRepModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Bike-Reperatur</h1>
+                <h1 class="modal-title fs-5" id="bikeRepModalLabel">Bike-Reperatur</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -239,11 +239,11 @@
           </div>
         </div>
 
-        <div class="modal fade" id="modalBikePflege" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalBikePflege" tabindex="-1" aria-labelledby="bikePflegeModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Bike-Pflege</h1>
+                <h1 class="modal-title fs-5" id="bikePflegeModalLabel">Bike-Pflege</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -267,7 +267,7 @@
             <p class="lead">Die Fahrradwerkstatt am HHG wurde durch das P-Seminar Projekt Sport 23/24 der 11.Klassen betrieben. Nun im neuen Schuljahr können interessierte Schüler*Innen sich bei uns melden und helfen. Unserer Ziel ist es, dass Alle in der Schulgemeinschaft funktionsfähige und suabere Fahrräder hat</p>
           </div>
           <div class="col-md-5">
-            <img class="img-fluid" src="images/logo.png" alt="logo" width="500" height="500"aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img class="img-fluid" src="images/logo.png" alt="logo" width="500" height="500"aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
           </div>
         </div>
 
@@ -285,7 +285,7 @@
             </div>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="img-fluid" src="images/logo.png" alt="logo" width="500" height="500"aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img class="img-fluid" src="images/logo.png" alt="logo" width="500" height="500"aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
           </div>
         </div>
 
@@ -313,9 +313,9 @@
                 <tbody>
                   <tr>
                     <th scope="row">Offen</th>
-                    <td><img src="images/check2.svg" alt="check2"></td>   
-                    <td><img src="images/check2.svg" alt="check2"></td>   
-                    <td><img src="images/check2.svg" alt="check2"></td>   
+                    <td><img src="images/check2.svg" alt="check2" loading="lazy"></td>   
+                    <td><img src="images/check2.svg" alt="check2" loading="lazy"></td>   
+                    <td><img src="images/check2.svg" alt="check2" loading="lazy"></td>   
                     <td></td>
                     <td></td>
                     <td></td>
@@ -326,10 +326,10 @@
                     <td></td>         
                     <td></td>         
                     <td></td>                      
-                    <td><img src="images/check2.svg" alt="check2"></td>              
-                    <td><img src="images/check2.svg" alt="check2"></td>              
-                    <td><img src="images/check2.svg" alt="check2"></td>              
-                    <td><img src="images/check2.svg" alt="check2"></td>              
+                    <td><img src="images/check2.svg" alt="check2" loading="lazy"></td>              
+                    <td><img src="images/check2.svg" alt="check2" loading="lazy"></td>              
+                    <td><img src="images/check2.svg" alt="check2" loading="lazy"></td>              
+                    <td><img src="images/check2.svg" alt="check2" loading="lazy"></td>              
                   </tr>
                 </tbody>
               </table></p>
