@@ -5387,7 +5387,7 @@ textarea.form-control-lg {
   opacity: 0;
 }
 .toast:not(.show) {
-  display: none;
+  display: 0;
 }
 
 .toast-container {
